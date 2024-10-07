@@ -6,6 +6,7 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,4 +16,45 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    width: 300px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header > h1 {
+    font-size: 2em;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 7px;
+}
+
+.entrada {
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.container-lembrar {
+    display: flex;
+}
+
+.container-lembrar > a {
+    margin-left: 50px;
+}
+
+button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.container-footer > p {
+
+   text-align: center;
+   padding: 20px;
 }
