@@ -10,13 +10,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
+    background-color: #121214;
 }
 
 form {
     display: flex;
     flex-direction: column;
     width: 300px;
+    padding: 40px;
+    color: white;
+}
+
+img {
+    width: 100px;
 }
 
 .header {
@@ -25,36 +32,62 @@ form {
 }
 
 .header > h1 {
-    font-size: 2em;
+    font-size: 2em; 
+    margin-bottom: 10px;
+}
+
+.header > p {
+    color: #7C7C8A;
 }
 
 .container-text {
     display: flex;
     flex-direction: column;
-    line-height: 7px;
+    line-height: 12px;
+    color: #C4C4CC;
+    
 }
 
 .entrada {
     margin-bottom: 20px;
-    padding: 8px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #202024;
+    color: #7C7C8A;
 }
 
 .container-lembrar {
     display: flex;
+    color: #7C7C8A;
 }
 
 .container-lembrar > a {
     margin-left: 50px;
+    color: #7C7C8A;
 }
 
 button {
     width: 100%;
     margin: 10px 0;
     padding: 8px;
+    background-color: #0B51C1;
+    color: #C4C4CC;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0e61e5;
 }
 
 .container-footer > p {
+    color: #7C7C8A;
+    text-align: center;
+    padding: 20px;
+}
 
-   text-align: center;
-   padding: 20px;
+.container-footer > p > a {
+    color: #C4C4CC;
 }
