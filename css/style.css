@@ -11,19 +11,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #121214;
+    background-color: black;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 350px;
     padding: 40px;
     color: white;
+    background-color: #121214;
 }
 
 img {
-    width: 100px;
+    width: 150px;;
 }
 
 .header {
@@ -64,7 +65,7 @@ img {
 }
 
 .container-lembrar > a {
-    margin-left: 50px;
+    margin-left: 95px;
     color: #7C7C8A;
 }
 
