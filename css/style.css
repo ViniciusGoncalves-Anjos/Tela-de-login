@@ -75,6 +75,7 @@ button {
     color: #C4C4CC;
     border: none;
     border-radius: 3px;
+    font-size: 1em;
 }
 
 button:hover {
